@@ -1,0 +1,92 @@
+body{
+    background-color: rgb(179, 231, 163);
+}
+ .container {
+    display: inline-block;
+    width: 800px;
+    margin-top: 80px;
+    margin-left: calc( (100% - 800px) / 2 );
+  }
+    .container > .left {
+      display: inline-block;
+      width: 40%;
+      float: left;
+      background-color: #36f;
+      color: #fff;
+  }
+        .container > .left > h1{
+            display: inline-block;
+            width: 100%;
+            padding: 40px;
+        }
+        .container > .left > footer{
+            display: inline-block;
+            width: 100%;
+            padding: 20px;            
+        }
+         .container > .right {
+         display: inline-block;
+         width: 60%;
+         float: left;
+         padding: 60px;
+         background-color: #fff;
+         }
+         .container > .right > .form {
+            display: inline-block;
+            width: 100%;
+       }
+       form > .form-row {
+         display: inline-block;
+         width: 100%;
+        margin-bottom: 30px;
+        }   
+        form > .form-row:last-of-type {
+            margin-bottom: 0px;
+         }
+      form > .form-row > label {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 5px;
+        color: rgb(154, 132, 175);
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 20px;
+     }
+     form > .form-row > input {
+      display: inline-block;
+      width: 100%;
+      font-size: 20px;
+      line-height: 30%;
+      border: none;
+      border-bottom: 2px solid #ccc;
+      }
+     form > .form-row > span {
+        display: inline-block;
+        padding: 5px;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 20px;
+        line-height: 30px;     
+     } 
+     form > .form-row > a {
+         display: inline-block;
+         padding: 5px;
+         font-size: 20px;
+         line-height: 30px;
+         text-decoration: none;
+     }
+     .btn {
+         display: inline-block;
+         padding: 5px;
+         padding-left: 30px;
+         padding-right: 30px;
+         background-color: brown;
+         color: #fff;
+         font-size: 20px;
+         line-height: 30px;
+         border-radius: 20px;
+         cursor: pointer;
+     }
+     
+        
