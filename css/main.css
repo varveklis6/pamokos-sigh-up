@@ -1,6 +1,7 @@
 body{
     background-color: rgb(179, 231, 163);
 }
+
  .container {
     display: inline-block;
     width: 800px;
@@ -13,7 +14,7 @@ body{
       float: left;
       background-color: #36f;
       color: #fff;
-  }
+     }
         .container > .left > h1{
             display: inline-block;
             width: 100%;
@@ -25,11 +26,11 @@ body{
             padding: 20px;            
         }
          .container > .right {
-         display: inline-block;
-         width: 60%;
-         float: left;
-         padding: 60px;
-         background-color: #fff;
+            display: inline-block;
+            width: 60%;
+            float: left;
+            padding: 60px;
+            background-color: #fff;
          }
          .container > .right > .form {
             display: inline-block;
@@ -38,7 +39,7 @@ body{
        form > .form-row {
          display: inline-block;
          width: 100%;
-        margin-bottom: 30px;
+         margin-bottom: 30px;
         }   
         form > .form-row:last-of-type {
             margin-bottom: 0px;
@@ -57,10 +58,10 @@ body{
       display: inline-block;
       width: 100%;
       font-size: 20px;
-      line-height: 30%;
+      line-height: 30px;
       border: none;
       border-bottom: 2px solid #ccc;
-      }
+   }
      form > .form-row > span {
         display: inline-block;
         padding: 5px;
