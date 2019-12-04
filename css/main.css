@@ -1,54 +1,89 @@
 body{
     background-color: rgb(219, 219, 219);
 }
+.background {
+  display: inline-block;
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/singup2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: blur(15px);
+
+}
 
  .container {
     display: inline-block;
     width: 800px;
-    margin-top: 80px;
-    margin-left: calc( (100% - 800px) / 2 );
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
   }
+
     .container > .left {
       display: inline-block;
       width: 40%;
       float: left;
       background-color: #36f;
+      background-image: url(../img/singup2.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
       color: #fff;
+      position: absolute;
+      top: 30px;
+      bottom: 30px;
       }
         .container > .left > h1{
             display: inline-block;
             width: 100%;
-            padding: 40px;
+            padding: 45px;
+            font-size: 40px;
+            font-family: Microsoft JhengHei;
+            font-weight: normal;
         }
          .container > .left > footer{
               display: inline-block;
               width: 100%;
               position: absolute;
-              bottom: 0px;
-              left: 0px;
-              right: 0px;
+              bottom: 20px;
+              left: 40px;
+              right: 40px;
         }
+            .container > .left > footer > a {
+              display: inline-block;
+              color: #fff;
+            }
+            .container > .left > footer > span{
+              display: inline-block;
+            }
 
         .container > .right {
             display: inline-block;
             width: 60%;
-            float: left;
+            float: right;
             padding: 60px;
             background-color: #fff;
             position: relative;
          }
-         .container > .right > .close {
-           display: inline-block;
-           height: 60px;
-           width: 60px;
-           background-color: none;
-           position: absolute;
-           top: 0;
-           right: 0;
-           text-align: center;
-           font-size: 30px;
-           line-height: 55px;
-         }
+
+          .container > .right > .close {
+            display: inline-block;
+            height: 60px;
+            width: 60px;
+            background-color: none;
+            position: absolute;
+            top: 0;
+            right: 0;
+            text-align: center;
+            font-size: 30px;
+            line-height: 55px;
+            color: rgb(180, 180, 180);
+            font-family: Raleway;
+          }
 
      
      
